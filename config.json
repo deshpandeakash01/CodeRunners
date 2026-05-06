@@ -1,0 +1,10 @@
+{
+    "weights": {
+        "travel_time": 0.4,
+        "sla_urgency": 0.3,
+        "workload": 0.2,
+        "rating": 0.1
+    },
+    "simulation_speed": 1.0,
+    "max_decision_latency_ms": 500
+}

@@ -1,0 +1,52 @@
+{
+    "delivery_metrics": {
+        "high": {
+            "average_time": 12.45,
+            "count": 51
+        },
+        "normal": {
+            "average_time": 17.24,
+            "count": 50
+        },
+        "low": {
+            "average_time": 23.82,
+            "count": 49
+        },
+        "overall": {
+            "average_time": 17.76,
+            "count": 150
+        }
+    },
+    "sla_metrics": {
+        "high": {
+            "violation_rate": 0.0,
+            "compliance_rate": 100.0,
+            "violations": 0,
+            "total": 51
+        },
+        "normal": {
+            "violation_rate": 96.0,
+            "compliance_rate": 4.0,
+            "violations": 48,
+            "total": 50
+        },
+        "low": {
+            "violation_rate": 95.92,
+            "compliance_rate": 4.08,
+            "violations": 47,
+            "total": 49
+        },
+        "overall": {
+            "violation_rate": 63.33,
+            "compliance_rate": 36.67,
+            "violations": 95,
+            "total": 150
+        }
+    },
+    "fairness_metrics": {
+        "std_deviation": 2.52,
+        "min_assignments": 2,
+        "max_assignments": 12,
+        "range": 10
+    }
+}
