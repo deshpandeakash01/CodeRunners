@@ -10,7 +10,8 @@ from metrics import MetricsTracker
 from simulation import Simulation
 
 app = Flask(__name__)
-CORS(app)
+# Restrict CORS to specific origins for security
+CORS(app, resources={r"/api/*": {"origins": ["http://localhost:5173", "http://127.0.0.1:5173"]}})
 
 # Global simulation state
 sim_data = {
