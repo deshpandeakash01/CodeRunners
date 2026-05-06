@@ -3,7 +3,7 @@
 ## Team Information
 - **Team Name**: CodeRunners
 - **Team Members**: akash, vishal, vaibhav
-- **Year**: 2026
+- **Year**: 2nd year
 - **All-Female Team**: No
 
 ## Architecture Overview
